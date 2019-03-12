@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-button = Button(root, command=root.quit, text="Exit")
-button.grid()
+b_exit = Button(root, command=root.quit, text="Exit")
+b_exit.grid()
 root.mainloop()
 
